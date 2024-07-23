@@ -6,9 +6,21 @@
 body {
     font-family: 'BatmanForever', 'Comic Sans MS', sans-serif;
     text-align: center;
-    padding-top: 100px;
     background-color: #363636;
     background-image: linear-gradient(45deg, grey, #363636);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 48px; /* Increased font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Space between h1 and buttons */
 }
 
 button {
@@ -30,8 +42,6 @@ button:hover {
     border-color: #ff4f5a;
 }
 
-h1 {
-    color: black;
-    font-size: 36px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+#noButton {
+    position: relative; /* Ensure it remains relatively positioned for JS to adjust */
 }
