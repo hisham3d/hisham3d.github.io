@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'BatmanForever';
+    src: url('batmfo__.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'BatmanForever', 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
     padding-top: 100px;
     background-color: #a1e8f7;
