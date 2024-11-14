@@ -2,19 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>HISHAM</title>
+<title>Happy 3 Months!</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<h1>IS HISHAM THE BATMAN?</h1>
+<div class="container">
+    <div class="message">
+        <h1>HAPPY 3 MONTHS BAKHTO</h1>
+        <p>Every day with you is my favorite day </p>
+    </div>
+    <div class="flaming-heart">
+        ❤️🔥
+    </div>
+</div>
 
-<button onclick="redirectToYes()">YES</button>
-<button id="noButton" onclick="redirectToNo()">NO</button>
+<div class="buttons">
+    <button onclick="redirectToYes()">YES, I LOVE YOU!</button>
+    <button id="noButton" onclick="redirectToNo()">NO, BUT JOKING!</button>
+</div>
 
 <script>
     function redirectToYes() {
-        window.location.href = 'yes.html';
+        alert('Aww, I love you too! 🥰');
     }
     
     function randomlyPositionNoButton() {
@@ -32,7 +42,7 @@
     document.getElementById('noButton').addEventListener('mouseover', randomlyPositionNoButton);
 
     function redirectToNo() {
-        window.location.href = 'no.html';
+        alert('Haha, you’re stuck with me! 😄');
     }
 </script>
 
